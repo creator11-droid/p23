@@ -1,4 +1,4 @@
-import Faleft from '../assets/icons/FALeftGreen.svg'
+import FaLeft from '../assets/icons/FaleftGreen.svg'
 const Events = () => {
   return (
     <div className='bg-events h-fit pb-12 w-full flex flex-col'>
@@ -9,7 +9,7 @@ const Events = () => {
     
       <button className='text-(--green-clr) bg-white  rounded-2xl flex w-66.25 h-14 ml-12 mt-7 p-2.5 items-center justify-between '>
         See all events 
-        <span> <img src={ Faleft} /></span>
+        <span> <img src={ FaLeft} /></span>
       </button>
     </div>
   )

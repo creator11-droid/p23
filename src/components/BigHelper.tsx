@@ -1,5 +1,5 @@
 
-import Faleft from "../assets/icons/FALeftsvg.svg"
+import FaLeft from "../assets/icons/FaleftGreen.svg"
 import { data } from "../data/data"
 import InfoCard from "./InfoCard"
 
@@ -15,7 +15,7 @@ const BigHelper = () => {
     
       <button className='text-(--green-clr) bg-white  rounded-2xl flex w-63.25 h-14 ml-12 mt-7 p-2.5 items-center justify-between '>
         See all events 
-        <span> <img src={ Faleft} /></span>
+        <span> <img src={ FaLeft} /></span>
       </button>
       </div>
     {data.map((item, index) => (

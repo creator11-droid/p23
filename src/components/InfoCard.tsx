@@ -1,7 +1,7 @@
 import  { useState, type FC } from 'react'
 import { type card } from '../data/data';
 import IconGreen from "../assets/icons/IconGreensvg.svg"
-import Faleft from "../assets/icons/FALeftsvg.svg"
+import FaLeft from "../assets/icons/FALeftsvg.svg"
 import FaLeftGreen from "../assets/icons/FaleftGreen.svg"
 
 interface InfoCardProps {
@@ -29,11 +29,11 @@ const InfoCard: FC<InfoCardProps> = ({ data }) => {
       <div className='flex'>
         <button className='flex pt-0.5 pl-4 pr-2 pb-0.5 border border-(--green-clr) rounded-xl justify-between cursor-pointer  w-38.25 group-hover:border-white'>
           <p className='whitespace-nowrap'>Book a Seat</p>
-          <img src={isHovered? Faleft: FaLeftGreen} className='w-4'/>
+          <img src={isHovered? FaLeft: FaLeftGreen} className='w-4'/>
          </button>
         <button className='flex pt-0.5 pl-4 pr-2 pb-0.5 justify-between w-38.25 cursor-pointer '>
           <p className='whitespace-nowrap'>Event details</p>
-            <img src={isHovered? Faleft: FaLeftGreen} className='w-4'/>
+            <img src={isHovered? FaLeft: FaLeftGreen} className='w-4'/>
         </button>
       </div>
 

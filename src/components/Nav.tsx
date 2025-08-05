@@ -7,7 +7,7 @@ import YT from "../assets/icons/Youtube1.svg"
 
 const Nav = () => {
   return (
-    <div className="w-full flex justify-between items-center bg-(--green-clr) h-21.5 px-13 pt-6 pb-2.75 xl:h-30.75 py-4.75 px-2.5 ">
+    <div className="w-full flex justify-between items-center bg-(--green-clr) h-21.5 px-13 pt-6 pb-2.75 xl:h-30.75 xl:py-4.75 xl:px-2.5 ">
       <div>
         <img src={Logo}/>
       </div>
