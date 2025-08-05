@@ -1,4 +1,4 @@
-import React, { useState, type FC } from 'react'
+import  { useState, type FC } from 'react'
 import { type card } from '../data/data';
 import IconGreen from "../assets/icons/IconGreensvg.svg"
 import Faleft from "../assets/icons/FALeftsvg.svg"
