@@ -1,0 +1,100 @@
+ 
+ 
+ @font-face {
+  font-family: 'GT-Walsheim-Trial';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src:  url('./assets/fonts/gt-walsheim-trial-webfont/GT-Walsheim-Ultra-Light-Trial-BF651b7fc72b236.woff') format('woff');
+    }
+    @font-face {
+   font-family: 'GT-Walsheim-Trial';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src:  url('./assets/fonts/gt-walsheim-trial-webfont/GT-Walsheim-Thin-Oblique-Trial-BF651b7fc66311a.woff') format('woff');
+    }
+    
+    @font-face {
+    font-family: 'GT-Walsheim-Trial';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src:  url('./assets/fonts/gt-walsheim-trial-webfont/GT-Walsheim-Light-Trial-BF651b7fc714941.woff') format('woff');
+    }
+
+    @font-face {
+    font-family: 'GT-Walsheim-Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src:  url('./assets/fonts/gt-walsheim-trial-webfont/GT-Walsheim-Regular-Trial-BF651b7fc71a47d.woff') format('woff');
+    }
+     @font-face {
+    font-family: 'GT-Walsheim-Trial';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('./assets/fonts/gt-walsheim-trial-webfont/GT-Walsheim-Medium-Trial-BF651b7fc728fb3.woff') format('woff');
+    }
+      @font-face {
+   font-family: 'GT-Walsheim-Trial';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src:  url('./assets/fonts/gt-walsheim-trial-webfont/GT-Walsheim-Bold-Trial-BF651b7fc737c57.woff') format('woff');
+    }
+     @font-face {
+    font-family: 'GT-Walsheim-Trial';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src:  url('./assets/fonts/gt-walsheim-trial-webfont/GT-Walsheim-Condensed-Black-Trial-BF651b7fc6a5bf5.woff') format('woff');
+    }
+     @font-face {
+    font-family: 'GT-Walsheim-Trial';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src:  url('./assets/fonts/gt-walsheim-trial-webfont/GT-Walsheim-Ultra-Bold-Trial-BF651b7fc6c21e5.woff') format('woff');
+    }
+   @font-face {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src:  url('./assets/fonts/georgia/georgia.woff') format('woff');
+    }
+ 
+
+
+
+@import "tailwindcss";
+@plugin "tailwindcss-motion";
+
+@theme{
+  --font-GT: 'GT-Walsheim-Trial';
+  --font-Georgia: 'Georgia';
+  --font-Montserrat: 'Montserrat';
+}
+@layer utilities{
+  .bg-hero{
+    @apply bg-cover bg-center;
+    background-image: url('./assets//icons//Background.svg');
+  }
+  .bg-events{
+    @apply bg-cover bg-center;
+    background-image: url('./assets//icons/Background1svg.svg');
+  }
+ 
+}
+
+body{
+  height: 100%;
+  width:100%;
+  box-sizing: border-box;
+overflow-x: hidden;
+}
+:root{
+  --green-clr: #0D4036;
+}
